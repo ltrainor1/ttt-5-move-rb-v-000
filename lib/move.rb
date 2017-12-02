@@ -7,3 +7,14 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+def input_to_index(n)
+  i = n.to_i
+  a_i= i - 1
+  return a_i
+end
+
+default = "X"
+def move(array=board, index, value = default)
+  board[index] = default
+end
